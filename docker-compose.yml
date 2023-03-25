@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+   
+    ports:
+      - 27017:27017
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    
+    depends_on:
+      - mongo
+
+  webscvapi:
+    image: ${DOCKER_REGISTRY-}webscvapi
+    build:
+      context: .
+      dockerfile: WebScvAPI/Dockerfile
+    depends_on:
+      - mongo
