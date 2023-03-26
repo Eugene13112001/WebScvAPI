@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScvAPI", "WebScvAPI\WebScvAPI.csproj", "{3D8F12DD-6844-4F9B-884C-693D9D71BAA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScvAPI", "WebScvAPI\WebScvAPI.csproj", "{3D8F12DD-6844-4F9B-884C-693D9D71BAA7}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCSVAPI.Unittests", "..\WebCSVAPI.Unittests\WebCSVAPI.Unittests.csproj", "{EF4C2BBE-43CC-4588-A255-468BAE612D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

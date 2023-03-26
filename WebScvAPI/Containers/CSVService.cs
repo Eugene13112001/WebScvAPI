@@ -6,6 +6,11 @@ using static System.Net.Mime.MediaTypeNames;
 using DnsClient.Protocol;
 using System.Text.RegularExpressions;
 using SharpCompress.Compressors.Xz;
+using SharpCompress.Common;
+using System.Text;
+using System.Text.RegularExpressions;
+using Microsoft.Extensions.FileSystemGlobbing.Internal;
+using System.Collections.Generic;
 
 namespace WebScvAPI.Containers
 {
@@ -72,4 +77,6 @@ namespace WebScvAPI.Containers
             return path;
         }
     }
+    
+    
 }
