@@ -25,7 +25,6 @@
   <ItemGroup>
     <Folder Include="Features\FiltrFeature\" />
     <Folder Include="Properties\files\" />
-    <Folder Include="files\" />
   </ItemGroup>
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
