@@ -38,15 +38,14 @@ namespace WebScvAPI.Containers
                     if (count > 0)
                     {
                         if (words.Length != keys.Length) throw new Exception(String.Format("В файле ошибка на {0}  строке", (count+1)));
+                        for (int i = 0; i < keys.Length; i++) values[keys[i]] = "number";
                         for (int i=0; i < keys.Length; i++)
                         {
                             
-                            values[keys[i]] = "string";
                             Regex regex = new Regex(@"( ){0,}\d+(.\d+){0,1}( ){0,}");
                             MatchCollection matches = regex.Matches(words[i]);
-                            if (matches.Count != 1) continue;
-                            if ( words[i].Replace(  matches.First().Value , "").Length != 0) continue;
-                            values[keys[i]] = "number";
+                            if (matches.Count != 1) values[keys[i]] = "string"; 
+                            
 
                         }
                     }
