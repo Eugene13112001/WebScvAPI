@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScvAPI", "WebScvAPI\WebS
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unittests", "..\WebCSVAPI.Unittests\Unittests.csproj", "{EF4C2BBE-43CC-4588-A255-468BAE612D0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "ClassLibrary1\UnitTests.csproj", "{2B9A2A7A-76C5-42F8-991A-23D5BD0EA97F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF4C2BBE-43CC-4588-A255-468BAE612D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9A2A7A-76C5-42F8-991A-23D5BD0EA97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9A2A7A-76C5-42F8-991A-23D5BD0EA97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9A2A7A-76C5-42F8-991A-23D5BD0EA97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9A2A7A-76C5-42F8-991A-23D5BD0EA97F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
