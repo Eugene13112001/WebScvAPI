@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScvAPI", "WebScvAPI\WebS
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FE982C7D-5BD2-4C12-8DF7-21897E83E1A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCSVAPI.Unittests", "..\WebCSVAPI.Unittests\WebCSVAPI.Unittests.csproj", "{EF4C2BBE-43CC-4588-A255-468BAE612D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unittests", "..\WebCSVAPI.Unittests\Unittests.csproj", "{EF4C2BBE-43CC-4588-A255-468BAE612D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
