@@ -43,7 +43,7 @@ namespace WebScvAPI.Containers
             {
 
                 data = data.Select(l => new { Fields = l.Split(','), Line = l })
-                .Where(p => Regex.IsMatch(String.Format(@"{0}", p.Fields[0]), strvalues[i], RegexOptions.IgnoreCase)).Select(x => x.Line);
+                .Where(p => Regex.IsMatch(String.Format(@"{0}", p.Fields[i]), strvalues[i], RegexOptions.IgnoreCase)).Select(x => x.Line);
             }
 
             var data2 = data.Select(l => new CSVLine { Fields = l.Split(','), Line = l });

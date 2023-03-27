@@ -104,6 +104,7 @@ namespace WebScvAPI.Controllers
         /// Если операция неуспешна, то возвращает код 400 с информацией о ошибке
         /// </remarks>
         [HttpPost]
+        [AllowAnonymous]
         [Route("api/Add")]
         public async Task<IActionResult> Add([FromForm] AddModelCommand client,
            CancellationToken token)
